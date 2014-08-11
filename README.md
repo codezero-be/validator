@@ -5,7 +5,7 @@
 [![Total Downloads](https://poser.pugx.org/codezero/validator/downloads.svg)](https://packagist.org/packages/codezero/validator)
 [![License](https://poser.pugx.org/codezero/validator/license.svg)](https://packagist.org/packages/codezero/validator)
 
-This package provides an easy to use interface to handle server side form validation and lets your create your custom form validation classes without much effort.
+This package provides an easy to use interface to handle server side form validation and lets you create your custom form validation classes without much effort.
 
 Although the core of this package is not bound to any framework, I have included a ServiceProvider and ValidationService implementation specifically for [Laravel](http://www.laravel.com/).
 
@@ -102,7 +102,7 @@ Or if you use PHP 5.5 or above, this is even cleaner:
 
 #### 3. Show any validation errors ####
 
-Showing the errors in you form is as easy as doing this for each field:
+Showing the errors in your form is as easy as doing this for each field:
 
 	{{ $errors->first('name', '<p>:message</p>'); }}
 
