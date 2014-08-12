@@ -16,7 +16,7 @@ I have also included a ValidationTrait and a facade (both for Laravel) so you ca
 Install this package through Composer:
 
     "require": {
-    	"codezero/validator": "2.*"
+    	"codezero/validator": "1.*"
     }
 
 ## Laravel 4 Implementation ##
